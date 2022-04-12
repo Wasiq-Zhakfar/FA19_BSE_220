@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity {
         addRecord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                replaceFragment (new addRecord());
             }
-        });replaceFragment (new addRecord());
+        });
     }
 
 
