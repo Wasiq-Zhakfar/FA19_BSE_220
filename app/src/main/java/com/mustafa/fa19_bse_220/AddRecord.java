@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link addRecord#newInstance} factory method to
+ * Use the  factory method to
  * create an instance of this fragment.
  */
 public class addRecord extends Fragment {
@@ -24,7 +24,7 @@ public class addRecord extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public addRecord() {
+    public AddRecord() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class addRecord extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment addRecord.
+     * @return A new instance of fragment AddRecord.
      */
     // TODO: Rename and change types and number of parameters
-    public static addRecord newInstance(String param1, String param2) {
-        addRecord fragment = new addRecord();
+    public static AddRecord newInstance(String param1, String param2) {
+        AddRecord fragment = new AddRecord();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
